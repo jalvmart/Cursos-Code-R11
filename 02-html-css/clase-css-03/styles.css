@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: "Open Sans";
+}
+
+body {
+    text-align: center;
+    background-color: #101010;
+    line-height: 1.5;
+}
+
+.agrupar {
+    width: 1100px;
+    margin: 15px auto;
+    background-color: rgb(60, 59, 59);
+}
+
+header,
+nav,
+section,
+aside,
+footer,
+article,
+hgroup {
+    /*border: 1px solid black;*/
+    display: block;
+    /*margin: 10px 10px 10px 10px;*/
+}
+
+.cabecera {
+    background-color: rgb(31, 33, 33);
+    padding: 20px;
+}
+
+.cabecera h1 {
+    text-align: left;
+}
+
+.menu {
+    background-color: rgb(51, 51, 50);
+    padding: 5px 15px;
+    text-align: right;
+}
+
+.menu li {
+    list-style: none;
+    /*border: 1px solid black;*/
+    padding: 5px;
+    font: bold 14px verdana;
+    display: inline-block;
+
+}
+
+.seccion {
+    /*background-color: #2f3640;*/
+    margin: 20px;
+    width: 750px;
+    float: left;
+}
+
+article {
+    background-color: rgba(12, 12, 12, 0.912);
+    border: 1px solid black;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+article h2 {
+    font-size: 28px;
+}
+
+article h3 {
+    font-size: 22px;
+    padding-top: 6px;
+    padding-bottom: 5px;
+}
+
+article p {
+    font-family: "Roboto";
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+time {
+    color: #999;
+}
+
+article footer {
+    text-align: right;
+    margin-top: 20px;
+}
+
+hgroup {
+    background-color: rgb(12, 12, 12);
+}
+
+.columna {
+    /*background-color: chocolate;*/
+    margin: 20px 0;
+    width: 300px;
+    float: left;
+}
+
+.columna blockquote {
+    border: 1px solid black;
+    padding: 40px;
+    background-color: rgb(5, 5, 5);
+    margin-bottom: 20px;
+
+}
+
+.columna div {
+    border: 1px solid black;
+    padding: 40px;
+    background-color: rgb(5, 5, 5);
+    margin-bottom: 20px;
+}
+
+.columna div p{
+    text-align: left;
+}
+
+.columna div h2 {
+    font-size: 18px;
+    text-align: left;
+    padding-bottom: 10px ;
+}
+
+.columna div li {
+    text-align: left;
+}
+
+.pie {
+    clear: both;
+    padding: 20px;
+    background-color: rgb(22, 19, 19);
+    /*width: 100%-10px;*/
+    color: white;
+}
+
+article img {
+    width: 500px;
+    display: block;
+    margin: 20px auto;
+}

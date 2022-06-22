@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    border: 5px solid blue;
+    background-color:cadetblue;
+    text-align: center;
+}
+  
+.agrupar{
+    width: 1100px;
+    margin: 15px auto;
+}
+
+header, nav, section, aside, footer, article, hgroup{
+    border: 1px solid black;
+    display: block;
+    margin: 10px 10px 10px 10px;
+}
+
+header{
+    background-color:darkcyan ;
+    width: 100% - 10px;
+    height: 40px;
+}
+
+nav{
+    background-color:burlywood ;
+    width: 100%-10px;
+    height: 20px;
+}
+
+section{
+    background-color:cyan ;
+    /*width: 100%-10px;*/
+    height: 320px;
+}
+
+aside{
+    background-color:chocolate ;
+    width: 100%-10px;
+    height: 50px;
+}
+
+footer{
+    background-color:black ;
+    /*width: 100%-10px;*/
+    height: 30px;
+    color: white;
+}
+
+article{
+    background-color:cornflowerblue ;
+    width: 750px;
+    height: 130px;
+    color: white;
+}
+
+
