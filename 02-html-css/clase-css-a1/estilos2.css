@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(42, 39, 39);
+    color:white;
+
+}
+
+.contenedor{    
+    width: 90%;
+    max-width: 1200px;
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 20px;
+}
+
+.contenedor-conciertos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.card{
+    padding: 10px;
+    min-height: 200px;
+    border-radius: 10px;
+    /* position: relative; */
+    overflow: hidden;
+    background-size: cover;
+    /* background-position: auto auto; */
+}
+
+.textos {    
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.banner{    
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-size: cover;
+}
+
+.banner li{
+    list-style: none;
+}
+
+.banner ul li{
+    margin: 15px;
+}
+
+.banner .boton {
+    padding: 10px;
+    font-weight: bold;
+    background-color: yellow;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+footer{
+    background-color: black;
+    font-size: 12px;
+    padding: 15px;
+}

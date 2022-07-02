@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+
+.container{
+    width: 500px;
+    height: 500px;
+    border: 2px solid red;
+    margin: 20px auto;
+    
+}
+
+.caja {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    display: block;
+    
+}
+
+.caja1{
+    background-color: blue;
+    float: left;
+    margin: 10px;
+}
+
+.caja2{
+    background-color: blueviolet;
+    float: right;
+    margin: 10px;
+}
+
+.caja3{
+    clear: both;
+    background-color: blueviolet;
+    float: left;
+    margin: 260px 0px 0px 10px;
+}
+
+.caja4{    
+    background-color:chocolate;
+    float: right;
+    margin: 260px 10px 0px 0px;
+}
+
+p{
+    margin: 35% 25% ;
+}

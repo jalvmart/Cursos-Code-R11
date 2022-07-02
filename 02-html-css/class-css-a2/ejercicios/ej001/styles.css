@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: block;
+    margin: 20px auto;
+    width: 800px;
+    height: 560px;
+    background-color: cadetblue;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    border-radius: 10px;
+}
+
+.cuadrado {
+    display: block;
+    margin: auto;
+    width: 95%;
+    height: 95%;
+    background-color: blue;
+    border-radius: 10px;    
+}
